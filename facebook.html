@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Web Template</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+
+            .product {
+                width: 200px;
+                height: 200px;
+                aspect-ratio: 1/1;
+                border: 1px solid black;
+                margin: 10px;
+                padding: 10px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .product img {
+                max-width: 100%;
+                max-height: 100%;
+                object-fit: contain;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Title Response</h1>
+        
+        <div class="product">
+            <img src="sample-image1.jpg" alt="Product 1">
+            <h3>Product 1</h3>
+            <p>$10</p>
+        </div>
+
+        <div class="product">
+            <img src="sample-image2.jpg" alt="Product 2">
+            <h3>Product 2</h3>
+            <p>$20</p>
+        </div>
+
+        <div class="product">
+            <img src="sample-image3.jpg" alt="Product 3">
+            <h3>Product 3</h3>
+            <p>$30</p>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
